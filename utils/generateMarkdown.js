@@ -1,57 +1,57 @@
-function generateMarkdown(data) {
+function generateReadMe(data) {
     return `
-    #${data.title}
+        # ${data.title}
 
-    ## Description
+        ## Description
 
-    ${data.description}
+        ${data.description}
 
-    ## Table of contents
+        ## Table of contents
 
-    - [Description](#Description)
-    - [Installation](#Installation)
-    - [Usage](#Usage)
-    - [License](#License)
-    - [Credits](#Credits)
-    - [Test](#Test)
-    - [Github](#Github)
-    - [Email](#Email)
+        - [Description](#Description)
+        - [Installation](#Installation)
+        - [Usage](#Usage)
+        - [License](#License)
+        - [Credits](#Credits)
+        - [Test](#Test)
+        - [Github](#Github)
+        - [Email](#Email)
 
-    ## Installation
+        ## Installation
 
-    ${data.installation}
+        ${data.installation}
 
-    ## Usage
+        ## Usage
 
-    ${data.usage}
+        ${data.usage}
 
-    ## Credits
+        ## Credits
 
-    ${data.credits}
+        ${data.credits}
 
-    ## Test
+        ## Test
 
-    ${data.test}
+        ${data.test}
 
-    ## Github
+        ## Github
 
-    ${data.github}
+        ${data.github}
 
-    ## Email
+        ## Email
 
-    ${data.email}
+        ${data.email}
 
-    ## License
+        ## License
 
-    ![badge](https://img.shields.io/badge/license-${data.license}-green)
-    <br>
-    This app is under the ${data.license} license
-    <br>
-    Github Profile: ${data.username}
-    <br>
-    Email me: ${data.email}
-    <br>
+        ![badge](https://img.shields.io/badge/license-${data.license}-green)
+        <br>
+        This app is under the ${data.license} license
+        <br>
+        Github Profile: ${data.username}
+        <br>
+        Email me: ${data.email}
+        <br>
     `;
-};
+}
 
-module.exports = generateMarkdown;
+module.exports = generateReadMe;

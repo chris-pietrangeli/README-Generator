@@ -1,7 +1,7 @@
-const inquirer = require('inquirer');
-const fs = require('fs');
-const util = require('util');
-const generateMarkdown = require("./utils/generateMarkdown");
+const inquirer = require("inquirer");
+const fs = require("fs");
+const util = require("util");
+const generateReadMe = require("./utils/generateMarkdown.js");
 const writeFileAsync = util.promisify(fs.writeFile);
 
 function promptUser() {
@@ -62,7 +62,7 @@ function promptUser() {
 async function promisify() {
     try {
         const data = await promptUser();
-        const generateData = generateMarkdown(data);
+        const generateData = generateReadMe(data);
 
         await writeFileAsync("./dist/README.md", generateData);
         console.log("README.md was created successfully");
