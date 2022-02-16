@@ -1,9 +1,9 @@
 
-        # chris
+        # readme generator
 
         ## Description
 
-        chris1
+        creating a readme file in the backend
 
         ## Table of contents
 
@@ -18,11 +18,11 @@
 
         ## Installation
 
-        chris2
+        npm init -y, npm i inquirer
 
         ## Usage
 
-        chris3
+        ndjsfndsjknfkdsbfkdsbkfjdjfdskfbjsd
 
         ## Credits
 
@@ -30,7 +30,7 @@
 
         ## Test
 
-        chris5
+        ndjlsfndsjbfdsjkb
 
         ## Github
 
@@ -38,7 +38,7 @@
 
         ## Email
 
-        chris7
+        chrisco@gmail.com
 
         ## License
 
@@ -46,8 +46,8 @@
         <br>
         This app is under the MIT license
         <br>
-        Github Profile: chris6
+        Github Profile: chrisco-pie
         <br>
-        Email me: chris7
+        Email me: chrisco@gmail.com
         <br>
     
