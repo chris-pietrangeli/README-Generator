@@ -2,10 +2,6 @@ function generateReadMe(data) {
     return `
 # ${data.title}
 
-## Description
-
-${data.description}
-
 ## Table of contents
 
 - [Description](#Description)
@@ -17,6 +13,10 @@ ${data.description}
 - [Github](#Github)
 - [Email](#Email)
 
+## Description
+
+${data.description}
+
 ## Installation
 
 ${data.installation}
@@ -27,7 +27,7 @@ ${data.usage}
 
 ## Credits
 
-${data.credits}
+${data.credit}
 
 ## Test
 
@@ -35,22 +35,19 @@ ${data.test}
 
 ## Github
 
-${data.github}
+Github Profile: https://github.com/${data.username}
 
 ## Email
-
-${data.email}
+Email me: ${data.email}
 
 ## License
 
 ![badge](https://img.shields.io/badge/license-${data.license}-green)
-<br>
+
+
 This app is under the ${data.license} license
-<br>
-Github Profile: ${data.username}
-<br>
-Email me: ${data.email}
-<br>
+
+
     `;
 }
 

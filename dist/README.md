@@ -1,9 +1,5 @@
 
-# chris-test
-
-## Description
-
-fdifndslfbsdkbfsdbfbdsjbfdskjbfjdsbfbdsfbsdk
+# chris
 
 ## Table of contents
 
@@ -16,38 +12,39 @@ fdifndslfbsdkbfsdbfbdsjbfdskjbfjdsbfbdsfbsdk
 - [Github](#Github)
 - [Email](#Email)
 
+## Description
+
+chris
+
 ## Installation
 
-fidnsflsndfjldsnflbdnsljfbsdfbdsofbjosd
+chris
 
 ## Usage
 
-bnvdsjlbvsjkbvldsbvjlsdvjsvbs
+chris
 
 ## Credits
 
-undefined
+chris
 
 ## Test
 
-nsdfvbnslvbdsbvjsd
+chris
 
 ## Github
 
-undefined
+Github Profile: https://github.com/chris-pietrangeli
 
 ## Email
-
-nvsdjvbsjlvbs
+Email me: chris.pietrangeli11@gmail.com
 
 ## License
 
 ![badge](https://img.shields.io/badge/license-MIT-green)
-<br>
+
+
 This app is under the MIT license
-<br>
-Github Profile: nvdslvbsdvdsbvjsd
-<br>
-Email me: nvsdjvbsjlvbs
-<br>
+
+
     
